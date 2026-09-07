@@ -1,3 +1,4 @@
+AI Network Operations Copilot
 AI Components
 Component	Purpose
 Anomaly Detection	Flags abnormal behavior in metrics and logs before it becomes a full outage
