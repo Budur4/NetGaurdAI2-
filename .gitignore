@@ -1,1 +1,45 @@
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
 
+# --- Node / Frontend ---
+node_modules/
+frontend/build/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Python / Backend & AI ---
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# --- Database ---
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
+database/dumps/
+
+# --- Docker ---
+*.pid
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+logs/
